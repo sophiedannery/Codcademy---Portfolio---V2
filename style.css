@@ -11,6 +11,11 @@ p{
     font-weight: 300;
 }
 
+body{
+    position: relative;
+    
+}
+
 
 /* NAV BAR*/
 
@@ -98,6 +103,7 @@ nav .icon:hover{
 .text-box-col img{
     width: 500px;
 }
+
 
 .text-box-col h1{
     font-weight: 342;
@@ -281,6 +287,27 @@ nav .fa-solid{
 }
 
 
+
+
+/* ANIMATION ABOUT ME */
+
+.para1{
+    transition: transform 1s ease;
+    transform: translateX(calc(-100% - 20px));
+}
+
+.para3{
+    transition: transform 1s ease;
+    transform: translateX(calc(100% + 20px));
+}
+
+.para1.active{
+    transform: translateX(0);
+}
+
+.para3.active{
+    transform: translateX(0);
+}
 
 
 
